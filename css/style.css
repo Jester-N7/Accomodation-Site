@@ -141,7 +141,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-	min-height:764px;
+	min-height:100vh;
 	padding-bottom: 4em;
 }
 .slider {
@@ -255,6 +255,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     text-transform: capitalize;
     padding: 0.5em 0 0.4em;
     color: #222;
+    margin-top: 10px
 }
 .welcome-grid1 {
     border: 7px solid#fff;
@@ -285,7 +286,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .feature2 p {
     font-size: 1em;
     line-height: 1.8em;
-    color: #777;
+    color: #222;
     border-top: 5px solid #F2F2F2;
     padding: 1.5em;
 }
@@ -751,6 +752,7 @@ text-align:center;
 }
 .gallery-grid img {
   width: 100%;
+  overflow: hidden
 }
 .gallery-grid:hover img {
   -webkit-filter: grayscale(100%);
@@ -758,6 +760,7 @@ text-align:center;
   transition: all 300ms!important;
   -webkit-transition: all 300ms!important;
   -moz-transition: all 300ms!important;
+  overflow: hidden
 }
 .gallery-grids-middle{
 	margin:2em 0;
@@ -812,10 +815,10 @@ img.zoom-img {
 img.zoom-img:hover {
   -webkit-transform: scale(1.1);
   -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 750ms;
+  -webkit-transition-duration: 300ms;
   -moz-transform: scale(1.1);
   -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 750ms;
+  -moz-transition-duration: 300ms;
   overflow: hidden;
 }
 /*-- typography --*/
