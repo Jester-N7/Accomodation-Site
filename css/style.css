@@ -295,6 +295,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     color: #222;
     padding: 1em 0 0.5em;
 	text-transform: capitalize;
+    text-align: :center;
 }
 span.glyphicon.glyphicon-user,span.glyphicon.glyphicon-camera,span.glyphicon.glyphicon-calendar,span.glyphicon.glyphicon-gift,span.glyphicon.glyphicon-cutlery {
     border-radius: 4em;
@@ -308,7 +309,7 @@ span.glyphicon.glyphicon-user,span.glyphicon.glyphicon-camera,span.glyphicon.gly
     -moz-box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25);
     -o-box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.25);
     display: inline-block;
-    padding: 32px;
+    padding: 25px;
     background: #5ab645;
     background: -moz-linear-gradient(top, #03bcfd 0%, #019bd1 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5ab645), color-stop(100%,#5ab645));
@@ -516,7 +517,7 @@ ul#flexiselDemo1 li a h4:hover{
 .footer-section{
 	padding:2em 0;
 	text-align:center;
-	background: #5ab645
+	background: #5ab645;
 }
 .footer-top p {
 	font-size: 0.9em;
@@ -1259,7 +1260,6 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
     font-size: 0.85em;
 }
 .touch-grid {
-    float: left;
     width: 33.3%;
 }
 .touch-grid h5 {
@@ -1404,7 +1404,7 @@ span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-camera, span.glyphicon.g
 }
 .touch-grid {
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 .touch-grid:nth-child(2) {
     margin: 1em 0;
